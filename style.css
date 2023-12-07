@@ -1,0 +1,70 @@
+.window-body{
+  background-color: #d7c7c7;
+}
+
+.window{
+  width: 100%;
+  height: 100%;
+}
+
+.cabecalho{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} 
+
+.cabecalho button{
+  height: 30px;
+ width: 130px;
+ cursor: pointer;
+}
+
+.cabecalho button a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-size: 13px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+ .botoes{
+  margin: 30px;
+  padding: 10px; 
+  list-style: none;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto auto auto ;
+  grid-template-rows: auto auto auto auto auto ; 
+  column-gap: 100px;
+  row-gap: 50px;
+  justify-items: center;
+  }
+
+.botoes button{
+ height: 30px;
+ width: 130px;
+ cursor: pointer;
+}
+
+.botoes button a{
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+  
+.dialog{
+  border: none;
+  background-color: transparent;
+}
+ 
